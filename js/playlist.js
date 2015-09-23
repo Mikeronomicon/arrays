@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var playList = [
   'I Did It My Way',
   'Respect',
@@ -21,3 +22,11 @@ function printList(list) {
 }
 
 printList(playList);
+=======
+var playlist = [];
+
+playlist.push('Uptown Funk', 'Respect', 'Uptown Girl');
+playlist.unshift('Super Duper Mario', 'Save the Dinosaurs');
+
+printList(playlist);
+>>>>>>> 287e6f1e0ec4c0d8195a0816350ee8180ee8b434
